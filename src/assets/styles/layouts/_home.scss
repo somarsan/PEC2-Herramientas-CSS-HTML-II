@@ -56,19 +56,13 @@ footer {
 /* Colores de fondo de secciones */
 
 .bio,
-.aptitudes {
-  background-color: $sm-blue;
-}
+.aptitudes { background-color: $sm-blue; }
 
 .experiencia,
-.idiomas {
-  background-color: $sm-light-blue;
-}
+.idiomas { background-color: $sm-light-blue; }
 
 .educacion,
-.intereses {
-  background-color: $sm-bg;
-}
+.intereses { background-color: $sm-bg; }
 
 /* Módulos reutilizables */
 
@@ -106,22 +100,16 @@ footer {
   list-style: none;
 }
 
-.txt-blanco {
-  color: $sm-bg;
-}
+.txt-blanco { color: $sm-bg; }
 
-.txt-cv {
-  padding-top: 20px;
-}
+.txt-cv { padding-top: 20px; }
 
 .txt-cv p:first-child {
   font-size: 1.1rem;
   font-weight: 600;
 }
 
-.txt-cv p:last-child {
-  font-size: 0.8rem;
-}
+.txt-cv p:last-child { font-size: 0.8rem; }
 
 /* Header */
 
@@ -140,9 +128,7 @@ footer {
   }
 }
 
-.sm-logo-texto {
-  width: 250px;
-}
+.sm-logo-texto { width: 250px; }
 
 .sm-logo-titulo {
   padding-top: 5px;
@@ -283,9 +269,7 @@ footer {
 
 /* Footer */
 
-.redes {
-  justify-content: center;
-}
+.redes { justify-content: center; }
 
 .icono-rrss {
   margin-right: 5px;
@@ -293,6 +277,4 @@ footer {
   font-size: 1.5rem;
 }
 
-.autoria {
-  padding-top: 50px;
-}
+.autoria { padding-top: 50px; }
