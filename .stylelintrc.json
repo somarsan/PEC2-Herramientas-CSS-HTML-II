@@ -1,8 +1,7 @@
 {
   "extends": [
     "stylelint-config-recommended-scss",
-    "stylelint-config-recess-order",
-    "stylelint-config-prettier"
+    "stylelint-config-recess-order"
   ],
   "rules": {
     "comment-no-empty": true,

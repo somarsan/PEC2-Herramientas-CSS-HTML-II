@@ -3,28 +3,33 @@
 /* Fuentes */
 
 @font-face {
-  font-family: "Alte-Haas-Grotesk-Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../fonts/Alte-Haas-Grotesk-Bold.ttf.woff") format("woff"),
-    url("../fonts/Alte-Haas-Grotesk-Bold.ttf.svg#Alte-Haas-Grotesk-Bold")
-      format("svg"),
-    url("../fonts/Alte-Haas-Grotesk-Bold.ttf.eot"),
-    url("../fonts/Alte-Haas-Grotesk-Bold.ttf.eot?#iefix")
-      format("embedded-opentype");
-  font-display: swap;
-}
-
-$font-family-text: "Open Sans", sans-serif;
+    font-family: "Alte-Haas-Grotesk-Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Alte-Haas-Grotesk-Bold.ttf.woff") format("woff"),
+      url("../fonts/Alte-Haas-Grotesk-Bold.ttf.svg#Alte-Haas-Grotesk-Bold")
+        format("svg"),
+      url("../fonts/Alte-Haas-Grotesk-Bold.ttf.eot"),
+      url("../fonts/Alte-Haas-Grotesk-Bold.ttf.eot?#iefix")
+        format("embedded-opentype");
+    font-display: swap;
+  }
+  
 $font-family-title: "Alte-Haas-Grotesk-Bold";
 
-/* Colores */
 
-$sm-dark-blue: #0c615b;
-$sm-blue: #12958c;
-$sm-light-blue: color.scale($sm-blue, $lightness: 92%);
-$sm-bg: #ffffff;
+/* Personalización Bootstrap */
 
-/* Tamaño */
+$dark: #000;
 
-$mqMinWidth: 750px;
+$navbar-dark-color: rgba(#fff, .80);
+$navbar-dark-hover-color: rgba(#fff, .55);
+
+$navbar-toggler-focus-width: .10rem;
+
+$transition-collapse: height .55s ease;
+
+$btn-font-weight: 700;
+
+$carousel-control-opacity: .85;
+$carousel-control-hover-opacity: 1;

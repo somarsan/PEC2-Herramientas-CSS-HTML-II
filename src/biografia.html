@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Sonia Martí" />
+    <meta name="description" content='Esta página es un proyecto para la asignatura "Herramientas HTML y CSS II" de la UOC.'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="Shortcut Icon" href="./assets/images/logo-grupo.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+    <!-- do not remove this line! -->
+    <title>Mish | Rock band</title>
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="contenedor">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container-fluid">
+            <div>
+              <a class="navbar-brand m-0" href="index.html">
+                <img src="./assets/images/Logo-grupo-blanco.webp" alt="Logotipo de la web que dirige a la página principal" width="50" height="50" class="d-inline-block align-text-center"> 
+              </a>
+              <a class="navbar-brand m-0 p-0 h2 font-altee" href="index.html">MISH</a>
+            </div> 
+            <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav font-altee">
+                <a class="nav-link text-center mx-2" aria-current="page" href="componentes.html">Componentes</a>
+                <a class="nav-link active text-center mx-2" href="biografia.html">Biografía</a>
+                <a class="nav-link text-center mx-2" href="galeria.html">Galería</a>
+              </div>
+            </div>
+          </div>
+        </nav>   
+      </div>
+    </header>
+    <picture class="contenedor-txt-imagen">
+      <source media="(max-width: 650px)" srcset="./assets/images/img-biografia-480.webp" width="480" height="480">
+      <source media="(min-width: 651px)" srcset="./assets/images/img-biografia-1920.webp" width="1920" height="1024">
+      <img class="img-portada" src="./assets/images/img-biografia-1920.webp" alt="Foto en el estudio de grabación" width="1920" height="1024">
+      <div class="txt-imagen fw-bold text-white">by Author One</div>
+    </picture>
+    <main class="contenedor py-5">
+      <div class="contenedor-sm">
+        <h3 class="pb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui. Suspendisse molestie sapien ac ipsum luctus ullamcorper.</h3>
+        <p class="pb-3">Suspendisse potenti. Curabitur sed sapien massa. Nam in iaculis magna. Curabitur finibus felis suscipit neque mollis, at aliquam justo semper. Praesent erat tellus, feugiat id rhoncus sit amet, euismod sed odio. Maecenas magna velit, molestie ut scelerisque et, euismod at neque. Donec volutpat, ipsum eget porttitor cursus, metus leo eleifend diam, et ultricies quam lacus non nisl. In sed dolor sapien. Morbi ornare eu nunc in gravida. Aliquam erat volutpat. Sed eu molestie orci. Nullam at ipsum consequat ante semper vestibulum eget in massa.</p>
+        <hr>
+        <ol>
+          <li class="fw-bold">Item One</li>
+          <p>Aenean sit amet orci vel odio luctus volutpat sit amet sed dui. Mauris ac semper turpis. Phasellus hendrerit at tortor non interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed nec orci consequat, ultrices ligula vel, ultricies ex. Etiam tincidunt pharetra velit vitae hendrerit.</p>
+          <li class="fw-bold">Item Two</li>
+          <p>Sed risus magna, efficitur ut elit a, interdum bibendum metus. Aliquam erat volutpat. Proin ullamcorper risus vel nunc dictum, vel malesuada magna blandit.</p>
+          <li class="fw-bold">Item Three</li>
+          <p>Suspendisse vel libero mollis, facilisis lorem sed, commodo erat. Vivamus consequat, est a imperdiet iaculis, odio felis egestas tortor, sit amet faucibus enim ante eu mauris. Suspendisse fermentum lectus ac congue dignissim.</p>
+        </ol>
+        <hr>
+        <div class="flex py-3">
+          <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent finibus congue mi, at fringilla dui.</p>
+          </blockquote>
+          <p class="blockquote-p">Maecenas dignissim mattis leo sit amet dignissim. In at leo in turpis auctor egestas. Sed at orci at purus fringilla ullamcorper. Nullam convallis volutpat velit, sit amet ultrices augue feugiat ut. Phasellus sollicitudin id libero a eleifend. Cras neque orci, aliquam ut mauris vitae, posuere volutpat dolor. Cras vitae maximus metus.</p>
+        </div>  
+      </div>
+      <picture class="my-5">
+        <source media="(max-width: 650px)" srcset="./assets/images/img-biografia-noticia-480.webp" width="480" height="480">
+        <source media="(min-width: 651px)" srcset="./assets/images/img-biografia-noticia-1920.webp" width="1920" height="1024">
+        <img class="img-portada" src="./assets/images/img-biografia-noticia-1920.webp" alt="Foto en el estudio de grabación" width="1920" height="1024">
+      </picture>
+      <div class="contenedor-sm pt-4">
+        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus vestibulum nisl non scelerisque congue. Proin imperdiet fermentum tortor, tristique mattis nunc lacinia nec. Sed volutpat, elit non iaculis auctor, enim arcu cursus justo, sed eleifend ante sem nec purus.</p>
+      </div>
+    </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+  </body>
+</html>
+

@@ -1,472 +1,61 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta name="author" content="Sonia Martí" />
-        <meta
-            name="description"
-            content='Esta página es un proyecto para la asignatura "Herramientas HTML y CSS II" de la UOC.'
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            rel="Shortcut Icon"
-            href="./assets/images/logo-sm.ico"
-            type="image/x-icon"
-        />
-        <link rel="stylesheet" href="./assets/styles/main.scss" />
-        <!-- do not remove this line! -->
-        <title>Currículum Sonia Martí</title>
-    </head>
-    <body>
-        <header>
-            <div class="modulo-dark-blue">
-                <div class="sm-logo">
-                    <a href="index.html"
-                        ><img
-                            class="sm-logo-icono"
-                            src="./assets/images/logo-sm-blanco.webp"
-                            alt="Logotipo de la web que dirige a la página principal"
-                    /></a>
-                    <div class="sm-logo-texto">
-                        <p class="sm-logo-titulo">
-                            <a href="index.html">Sonia Martí</a>
-                        </p>
-                        <p class="sm-logo-subtitulo">
-                            <a href="index.html">Desarrolladora web</a>
-                        </p>
-                    </div>
-                </div>
-                <nav class="menu">
-                    <ul class="menu-listado hamburguesa">
-                        <li class="menu-elemento">
-                            <a href="#experiencia">Experiencia</a>
-                        </li>
-                        <li class="menu-elemento">
-                            <a href="#educacion">Educación</a>
-                        </li>
-                        <li class="menu-elemento">
-                            <a href="#aptitudes">Aptitudes</a>
-                        </li>
-                        <li class="menu-elemento">
-                            <a href="#idiomas">Idiomas</a>
-                        </li>
-                        <li class="menu-elemento">
-                            <a href="#intereses">Intereses</a>
-                        </li>
-                    </ul>
-                </nav>
-                <i class="fa-sharp fa-solid fa-bars" id="hamburguesa"></i>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Sonia Martí" />
+    <meta name="description" content='Esta página es un proyecto para la asignatura "Herramientas HTML y CSS II" de la UOC.'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="Shortcut Icon" href="./assets/images/logo-grupo.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+    <!-- do not remove this line! -->
+    <title>Mish | Rock band</title>
+  </head>
+  <body>
+    <div class="contenedor pt-0 pb-5 grid">
+      <header class="header-grid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <div class="container-fluid">
+            <div>
+              <a class="navbar-brand m-0" href="index.html">
+                <img src="./assets/images/Logo-grupo-blanco.webp" alt="Logotipo de la web que dirige a la página principal" width="50" height="50" class="d-inline-block align-text-center"> 
+              </a>
+              <a class="navbar-brand m-0 p-0 h2 font-altee" href="index.html">MISH</a>
+            </div> 
+            <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav font-altee">
+                <a class="nav-link text-center mx-2" aria-current="page" href="componentes.html">Componentes</a>
+                <a class="nav-link text-center mx-2" href="biografia.html">Biografía</a>
+                <a class="nav-link text-center mx-2" href="galeria.html">Galería</a>
+              </div>
             </div>
-        </header>
-        <main>
-            <div class="bio">
-                <div class="modulo-blue">
-                    <div class="bio-info">
-                        <img
-                            class="sm-foto"
-                            src="./assets/images/foto-cara-sm.webp"
-                            alt="Foto de cara de Sonia Martí"
-                        />
-                        <div>
-                            <h1>Sonia Martí</h1>
-                            <p>Desarrolladora web</p>
-                            <p>
-                                <i class="fa-solid fa-location-dot"></i>
-                                Barcelona
-                            </p>
-                        </div>
-                    </div>
-                    <div class="bio-contacto">
-                        <p>
-                            <i class="fa-solid fa-user"></i> 19 de noviembre de
-                            1992
-                        </p>
-                        <p>
-                            <i class="fa-solid fa-envelope"></i>
-                            somarsan@uoc.edu
-                        </p>
-                        <p><i class="fa-solid fa-phone"></i> 123 456 789</p>
-                    </div>
-                </div>
-            </div>
-            <div class="experiencia" id="experiencia">
-                <div class="modulo-light">
-                    <h2>Experiencia</h2>
-                    <div class="txt-cv">
-                        <p>
-                            <i class="fa-regular fa-calendar-days"></i> 2017 -
-                            Actualmente
-                        </p>
-                        <p>
-                            Creación de contenidos digitales y Community manager
-                        </p>
-                        <p>Fisiofocus Formación en fisioterapia</p>
-                    </div>
-                    <div class="txt-cv">
-                        <p>
-                            <i class="fa-regular fa-calendar-days"></i> 2015 -
-                            2017
-                        </p>
-                        <p>Montadora de serie de animación</p>
-                        <p>
-                            Serie <cite>Heavies Tendres</cite> de Juanjo Sáez
-                            para TV3
-                        </p>
-                    </div>
-                    <div class="txt-cv">
-                        <p><i class="fa-regular fa-calendar-days"></i> 2015</p>
-                        <p>Realizadora y editoria de vídeo corporativo</p>
-                        <p>Donovan Barcelona</p>
-                    </div>
-                </div>
-            </div>
-            <div class="educacion" id="educacion">
-                <div class="modulo-light">
-                    <h2>Educación</h2>
-                    <div class="txt-cv">
-                        <p>
-                            <i class="fa-regular fa-calendar-days"></i> 2021 -
-                            Actualmente
-                        </p>
-                        <p>
-                            Máster Universitario en Desarrollo de sitios y
-                            aplicaciones web
-                        </p>
-                        <p>Universitat Oberta de Catalunya (UOC)</p>
-                    </div>
-                    <div class="txt-cv">
-                        <p><i class="fa-regular fa-calendar-days"></i> 2014</p>
-                        <p>Máster en Montaje Cinematográfico</p>
-                        <p>
-                            Escola Superior de Cinema i Audiovisuals de
-                            Catalunya (ESCAC)
-                        </p>
-                    </div>
-                    <div class="txt-cv">
-                        <p>
-                            <i class="fa-regular fa-calendar-days"></i> 2010 -
-                            2014
-                        </p>
-                        <p>Grado en Comunicación Audiovisual</p>
-                        <p>Universitat Politècnica de València</p>
-                    </div>
-                </div>
-            </div>
-            <div class="aptitudes" id="aptitudes">
-                <div class="modulo-blue modulo-apt">
-                    <div class="apt-listado">
-                        <h2>Aptitudes</h2>
-                        <p>JavaScript</p>
-                        <p>HTML y CSS</p>
-                        <p>Premiere/Final Cut</p>
-                        <p>Adobe Photoshop</p>
-                        <p>Illustrator/Indesign</p>
-                        <p>Microsoft Office</p>
-                    </div>
-                    <div class="circulos">
-                        <svg
-                            version="1.1"
-                            viewBox="0 0 700 500"
-                            xmlns="http://www.w3.org/2000/svg"
-                        >
-                            <g>
-                                <circle cx="120" cy="15" r="15" fill="white" />
-                                <circle cx="155" cy="15" r="15" fill="white" />
-                                <circle cx="190" cy="15" r="15" fill="white" />
-                                <circle cx="225" cy="15" r="15" fill="white" />
-                                <circle cx="260" cy="15" r="15" fill="white" />
-                                <circle
-                                    cx="295"
-                                    cy="15"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="330"
-                                    cy="15"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="365"
-                                    cy="15"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="400"
-                                    cy="15"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="435"
-                                    cy="15"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                            </g>
-                            <g>
-                                <circle cx="120" cy="100" r="15" fill="white" />
-                                <circle cx="155" cy="100" r="15" fill="white" />
-                                <circle cx="190" cy="100" r="15" fill="white" />
-                                <circle cx="225" cy="100" r="15" fill="white" />
-                                <circle cx="260" cy="100" r="15" fill="white" />
-                                <circle cx="295" cy="100" r="15" fill="white" />
-                                <circle
-                                    cx="330"
-                                    cy="100"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="365"
-                                    cy="100"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="400"
-                                    cy="100"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="435"
-                                    cy="100"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                            </g>
-                            <g>
-                                <circle cx="120" cy="185" r="15" fill="white" />
-                                <circle cx="155" cy="185" r="15" fill="white" />
-                                <circle cx="190" cy="185" r="15" fill="white" />
-                                <circle cx="225" cy="185" r="15" fill="white" />
-                                <circle cx="260" cy="185" r="15" fill="white" />
-                                <circle cx="295" cy="185" r="15" fill="white" />
-                                <circle cx="330" cy="185" r="15" fill="white" />
-                                <circle cx="365" cy="185" r="15" fill="white" />
-                                <circle cx="400" cy="185" r="15" fill="white" />
-                                <circle
-                                    cx="435"
-                                    cy="185"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                            </g>
-                            <g>
-                                <circle cx="120" cy="270" r="15" fill="white" />
-                                <circle cx="155" cy="270" r="15" fill="white" />
-                                <circle cx="190" cy="270" r="15" fill="white" />
-                                <circle cx="225" cy="270" r="15" fill="white" />
-                                <circle cx="260" cy="270" r="15" fill="white" />
-                                <circle cx="295" cy="270" r="15" fill="white" />
-                                <circle cx="330" cy="270" r="15" fill="white" />
-                                <circle cx="365" cy="270" r="15" fill="white" />
-                                <circle cx="400" cy="270" r="15" fill="white" />
-                                <circle
-                                    cx="435"
-                                    cy="270"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                            </g>
-                            <g>
-                                <circle cx="120" cy="355" r="15" fill="white" />
-                                <circle cx="155" cy="355" r="15" fill="white" />
-                                <circle cx="190" cy="355" r="15" fill="white" />
-                                <circle cx="225" cy="355" r="15" fill="white" />
-                                <circle cx="260" cy="355" r="15" fill="white" />
-                                <circle cx="295" cy="355" r="15" fill="white" />
-                                <circle cx="330" cy="355" r="15" fill="white" />
-                                <circle cx="365" cy="355" r="15" fill="white" />
-                                <circle
-                                    cx="400"
-                                    cy="355"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="435"
-                                    cy="355"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                            </g>
-                            <g>
-                                <circle cx="120" cy="440" r="15" fill="white" />
-                                <circle cx="155" cy="440" r="15" fill="white" />
-                                <circle cx="190" cy="440" r="15" fill="white" />
-                                <circle cx="225" cy="440" r="15" fill="white" />
-                                <circle cx="260" cy="440" r="15" fill="white" />
-                                <circle cx="295" cy="440" r="15" fill="white" />
-                                <circle cx="330" cy="440" r="15" fill="white" />
-                                <circle cx="365" cy="440" r="15" fill="white" />
-                                <circle
-                                    cx="400"
-                                    cy="440"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                                <circle
-                                    cx="435"
-                                    cy="440"
-                                    r="15"
-                                    fill="white"
-                                    fill-opacity="0.55"
-                                />
-                            </g>
-                        </svg>
-                    </div>
-                </div>
-            </div>
-            <div class="idiomas" id="idiomas">
-                <div class="modulo-light">
-                    <h2>Idiomas</h2>
-                    <div class="txt-cv">
-                        <p>Español</p>
-                        <p>Competencia bilingüe o nativa</p>
-                    </div>
-                    <div class="txt-cv">
-                        <p>Catalán</p>
-                        <p>Competencia bilingüe o nativa</p>
-                    </div>
-                    <div class="txt-cv">
-                        <p>Inglés</p>
-                        <p>Competencia profesional</p>
-                    </div>
-                </div>
-            </div>
-            <div class="intereses" id="intereses">
-                <div class="modulo-light">
-                    <h2>Intereses</h2>
-                    <svg
-                        class="intereses-circulos"
-                        version="1.1"
-                        width="100%"
-                        height="100%"
-                        viewBox="0 0 700 300"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <circle
-                            cx="270"
-                            cy="240"
-                            r="55"
-                            fill="#5EE0D8"
-                            fill-opacity="0.85"
-                        />
-                        <text
-                            x="38.5%"
-                            y="80%"
-                            text-anchor="middle"
-                            fill="white"
-                            font-size="21px"
-                            font-family="Open Sans"
-                            alignment-baseline="middle"
-                        >
-                            Cine
-                        </text>
-                        <circle
-                            cx="460"
-                            cy="80"
-                            r="65"
-                            fill="#5EE0D8"
-                            fill-opacity="0.85"
-                        />
-                        <text
-                            x="65.5%"
-                            y="27%"
-                            text-anchor="middle"
-                            fill="white"
-                            font-size="23px"
-                            font-family="Open Sans"
-                            alignment-baseline="middle"
-                        >
-                            Comedia
-                        </text>
-                        <circle
-                            cx="350"
-                            cy="150"
-                            r="80"
-                            fill="#0C615B"
-                            fill-opacity="0.85"
-                        />
-                        <text
-                            x="50%"
-                            y="50%"
-                            text-anchor="middle"
-                            fill="white"
-                            font-size="40px"
-                            font-family="Open Sans"
-                            alignment-baseline="middle"
-                        >
-                            Series
-                        </text>
-                        <circle
-                            cx="220"
-                            cy="110"
-                            r="70"
-                            fill="#12958C"
-                            fill-opacity="0.70"
-                        />
-                        <text
-                            x="31.5%"
-                            y="36.5%"
-                            text-anchor="middle"
-                            fill="white"
-                            font-size="30px"
-                            font-family="Open Sans"
-                            alignment-baseline="middle"
-                        >
-                            Música
-                        </text>
-                        <circle
-                            cx="450"
-                            cy="220"
-                            r="55"
-                            fill="#074D48"
-                            fill-opacity="0.92"
-                        />
-                        <text
-                            x="64.3%"
-                            y="74%"
-                            text-anchor="middle"
-                            fill="white"
-                            font-size="16px"
-                            font-family="Open Sans"
-                            alignment-baseline="middle"
-                        >
-                            Naturaleza
-                        </text>
-                    </svg>
-                </div>
-            </div>
-        </main>
-        <include src="./views/footer.html"></include>
-        <script type="module" src="./assets/scripts/main.js"></script>
-        <!-- do not remove this line! -->
-    </body>
+          </div>
+        </nav>   
+      </header>
+      <picture class="picture-grid">
+        <source media="(max-width: 650px)" srcset="./assets/images/img-portada-480.webp" width="480" height="480">
+        <source media="(min-width: 651px)" srcset="./assets/images/img-portada-1920-2.webp" width="1920" height="1024">
+        <img class="img-portada" src="./assets/images/img-portada-1920-2.webp" alt="Foto del grupo Mish" width="1920" height="1024">
+      </picture>
+      <h1 class="font-altee">MISH</h1>
+      <p class="blanco m-0"></p>
+      <div class="info-grid">
+        <h2 class="font-altee">Rock Band</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae nisi rhoncus elit hendrerit mollis et iaculis massa. Donec vehicula euismod dapibus. Cras id libero ac tortor ultrices malesuada nec vel urna.</p>
+        <p>Quisque facilisis enim dolor, vitae rhoncus massa aliquam eget. Fusce porttitor justo nisi, vestibulum euismod urna malesuada sed. Duis mollis magna hendrerit.</p>
+      </div>
+      <a class="btn btn-dark btn-grid" href="biografia.html"> Leer más</a>
+    </div>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+  </body>
 </html>
 

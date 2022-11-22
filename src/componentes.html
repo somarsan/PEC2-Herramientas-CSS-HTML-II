@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="author" content="Sonia Martí" />
+    <meta name="description" content='Esta página es un proyecto para la asignatura "Herramientas HTML y CSS II" de la UOC.'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="Shortcut Icon" href="./assets/images/logo-grupo.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./assets/styles/main.scss" />
+    <!-- do not remove this line! -->
+    <title>Mish | Rock band</title>
+  </head>
+  <body>
+    <header class="bg-dark">
+      <div class="contenedor">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container-fluid">
+            <div>
+              <a class="navbar-brand m-0" href="index.html">
+                <img src="./assets/images/Logo-grupo-blanco.webp" alt="Logotipo de la web que dirige a la página principal" width="50" height="50" class="d-inline-block align-text-center"> 
+              </a>
+              <a class="navbar-brand m-0 p-0 h2 font-altee" href="index.html">MISH</a>
+            </div> 
+            <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav font-altee">
+                <a class="nav-link active text-center mx-2" aria-current="page" href="componentes.html">Componentes</a>
+                <a class="nav-link text-center mx-2" href="biografia.html">Biografía</a>
+                <a class="nav-link text-center mx-2" href="galeria.html">Galería</a>
+              </div>
+            </div>
+          </div>
+        </nav>   
+      </div>
+    </header>
+    <main class="contenedor py-5">
+      <h2 class="text-center font-altee">COMPONENTES</h2>
+      <div class="flex">
+        <div class="card my-4">
+          <img src="./assets/images/cantante.webp" class="card-img-top" alt="Foto de la cantante de la banda">
+          <div class="card-body">
+            <h5 class="card-title">Mar Escudero</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Cantante</h6>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pellentesque velit enim, vel facilisis dui feugiat vitae. Etiam viverra tortor nisi, ut tempor arcu accumsan eu.</p>
+          </div>
+        </div>
+        <div class="card my-4">
+          <img src="./assets/images/guitarra.webp" class="card-img-top" alt="Foto del guitarrista de la banda">
+          <div class="card-body">
+            <h5 class="card-title">Javier Murillo</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Guitarrista</h6>
+            <p class="card-text">Phasellus sit amet turpis tincidunt, molestie libero consectetur, molestie magna. Aenean felis tellus, pellentesque nec est ut, tempor accumsan tellus.</p>
+          </div>
+        </div>
+        <div class="card my-4">
+          <img src="./assets/images/piano.webp" class="card-img-top" alt="Foto del teclista de la banda">
+          <div class="card-body">
+            <h5 class="card-title">Saul Manrique</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Teclista</h6>
+            <p class="card-text">Nunc sit amet lacus vitae nisi sollicitudin tincidunt. Donec accumsan urna sem, quis convallis nulla semper nec. Vestibulum ac massa neque.</p>
+          </div>
+        </div>
+        <div class="card my-4">
+          <img src="./assets/images/bajo.webp" class="card-img-top" alt="Foto del bajo de la banda">
+          <div class="card-body">
+            <h5 class="card-title">Sergi Cabeza</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Bajo</h6>
+            <p class="card-text">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce dictum orci euismod mi iaculis sollicitudin.</p>
+          </div>
+        </div>
+        <div class="card my-4">
+          <img src="./assets/images/saxo.webp" class="card-img-top" alt="Foto del saxo de la banda">
+          <div class="card-body">
+            <h5 class="card-title">Gonzalo Martí</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Saxo</h6>
+            <p class="card-text">Curabitur ex augue, luctus quis nulla in, luctus porta neque. Aenean placerat vel quam sed dapibus. Donec porttitor iaculis viverra. Phasellus id est id eros porttitor viverra quis eget nibh.</p>
+          </div>
+        </div>
+        <div class="card my-4">
+          <img src="./assets/images/bateria.webp" class="card-img-top" alt="Foto del batería de la banda">
+          <div class="card-body">
+            <h5 class="card-title">Alejandro Ferrero</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Batería</h6>
+            <p class="card-text">Ut vestibulum risus et mauris pellentesque, ac aliquam nulla vehicula. Nulla efficitur justo eget lobortis semper. Nullam fermentum dolor at mauris egestas scelerisque.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <include src="./views/footer.html"></include>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    <!-- do not remove this line! -->
+  </body>
+</html>
+
